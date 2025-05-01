@@ -1,0 +1,50 @@
+{
+  "name": "ha-hub",
+  "version": "1.0.0",
+  "description": "A web application for managing Home Assistant Hub.",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint .",
+    "prisma:generate": "prisma generate",
+    "prisma:migrate": "prisma migrate dev",
+    "prisma:studio": "prisma studio"
+  },
+  "dependencies": {
+    "@ant-design/icons-vue": "^7.0.1",
+    "@nuxt/kit": "^3.16.2",
+    "@pinia/nuxt": "^0.5.1",
+    "@prisma/client": "^6.7.0",
+    "ant-design-vue": "^4.2.6",
+    "axios": "^1.9.0",
+    "bcrypt": "^5.1.1",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "express-validator": "^7.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "nuxi": "^3.25.0",
+    "pinia": "^2.1.7",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@nuxtjs/tailwindcss": "^6.11.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.1",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^20.10.0",
+    "autoprefixer": "^10.4.16",
+    "axios-mock-adapter": "^2.1.0",
+    "eslint": "^8.54.0",
+    "nuxt": "^3.16.2",
+    "postcss": "^8.4.31",
+    "prisma": "^6.7.0",
+    "tailwindcss": "^3.3.5",
+    "typescript": "^5.3.2"
+  }
+}
